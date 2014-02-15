@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371aec31-dbd4-45c4-a6bd-38ad9349a74e" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\workspace\facebook_hackathon\IWantIt\GiftExchange\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\facebook_hackathon\IWantIt\GiftExchange\.idea\GiftExchange.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\facebook_hackathon\IWantIt\GiftExchange\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\facebook_hackathon\IWantIt\GiftExchange\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\facebook_hackathon\IWantIt\GiftExchange\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\facebook_hackathon\IWantIt\GiftExchange\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\facebook_hackathon\IWantIt\GiftExchange\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\facebook_hackathon\IWantIt\GiftExchange\.idea\workspace.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iwantit/templates/iwantit/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iwantit/templates/iwantit/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iwantit/templates/iwantit/index.html" afterPath="$PROJECT_DIR$/iwantit/templates/iwantit/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GiftExchange/settings.py" afterPath="$PROJECT_DIR$/GiftExchange/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iwantit/templates/iwantit/template.html" afterPath="$PROJECT_DIR$/iwantit/templates/iwantit/template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iwantit/urls.py" afterPath="$PROJECT_DIR$/iwantit/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iwantit/views.py" afterPath="$PROJECT_DIR$/iwantit/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IWantIt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,22 +33,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GiftExchange/settings.py">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iwantit/templates/iwantit/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="14" selection-start="4348" selection-end="4348" vertical-scroll-proportion="-0.0" vertical-offset="2074" max-vertical-offset="2856">
+            <state line="5" column="12" selection-start="204" selection-end="204" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GiftExchange/urls.py">
+      <file leaf-file-name="template.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iwantit/templates/iwantit/template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="46" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="221">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state line="29" column="42" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.59" vertical-offset="139" max-vertical-offset="765">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,7 +54,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iwantit/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="47" selection-start="283" selection-end="283" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="221">
+            <state line="15" column="51" selection-start="536" selection-end="536" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="391">
               <folding>
                 <element signature="e#26#62#0" expanded="true" />
               </folding>
@@ -67,28 +65,10 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iwantit/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="89" selection-end="89" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="221">
+            <state line="6" column="26" selection-start="144" selection-end="144" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="255">
               <folding>
                 <element signature="e#20#62#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iwantit/templates/iwantit/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iwantit/templates/iwantit/template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -112,11 +92,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/GiftExchange/urls.py" />
-        <option value="$PROJECT_DIR$/iwantit/urls.py" />
-        <option value="$PROJECT_DIR$/iwantit/views.py" />
         <option value="$PROJECT_DIR$/iwantit/templates/iwantit/header.html" />
-        <option value="$PROJECT_DIR$/iwantit/templates/iwantit/index.html" />
         <option value="$PROJECT_DIR$/GiftExchange/settings.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/iwantit/templates/iwantit/index.html" />
+        <option value="$PROJECT_DIR$/iwantit/templates/iwantit/profile.html" />
+        <option value="$PROJECT_DIR$/iwantit/views.py" />
+        <option value="$PROJECT_DIR$/iwantit/templates/iwantit/contact.html" />
+        <option value="$PROJECT_DIR$/iwantit/urls.py" />
         <option value="$PROJECT_DIR$/iwantit/templates/iwantit/template.html" />
       </list>
     </option>
@@ -159,6 +142,14 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="IWantIt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.5 (C:/Python27/python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -398,6 +389,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GiftExchange/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="39" selection-start="4441" selection-end="4441" vertical-scroll-proportion="-6.8" vertical-offset="1972" max-vertical-offset="2856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="10" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GiftExchange/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="46" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="221">
@@ -407,9 +412,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/iwantit/templates/iwantit/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="183" selection-end="183" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iwantit/templates/iwantit/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="221" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iwantit/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="89" selection-end="89" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="221">
+        <state line="6" column="26" selection-start="144" selection-end="144" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="255">
           <folding>
             <element signature="e#20#62#0" expanded="true" />
           </folding>
@@ -418,30 +437,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iwantit/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="283" selection-end="283" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="221">
+        <state line="15" column="51" selection-start="536" selection-end="536" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="391">
           <folding>
             <element signature="e#26#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GiftExchange/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="14" selection-start="4348" selection-end="4348" vertical-scroll-proportion="0.0" vertical-offset="2074" max-vertical-offset="2856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iwantit/templates/iwantit/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+        <state line="5" column="12" selection-start="204" selection-end="204" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iwantit/templates/iwantit/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+        <state line="29" column="42" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.59" vertical-offset="139" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
